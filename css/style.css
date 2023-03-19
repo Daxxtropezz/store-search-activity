@@ -1,0 +1,205 @@
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Segoe Script', sans-serif;
+    background-image: url('../img/background.jpg');
+}
+
+@keyframes FadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+i {
+    font-family: 'Segoe UI Script';
+}
+
+h1 {
+    font-size: 70px;
+    user-select: none;
+    text-align: center;
+    align-items: center;
+    border-radius: 230px 230px 230px 230px;
+    font-family: 'Lostmoond Free Font', sans-serif;
+}
+
+h1:hover {
+    background: -webkit-radial-gradient(rgba(107, 181, 255, 0.544), rgba(63, 11, 233, 0.67));
+    background-clip: unset;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.split {
+    top: 0;
+    width: 50%;
+    z-index: 1;
+    height: 100%;
+    padding-top: 0px;
+    position: absolute;
+    overflow-x: hidden;
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    right: 0;
+}
+
+.box {
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    text-align: center;
+    position: absolute;
+    box-sizing: border-box;
+    transition: ease-out 0.5s;
+    transform: translate(-50%, -50%);
+    border-radius: 5px 230px 5px 230px;
+    background: rgba(0, 35, 58, 0.464);
+    box-shadow: 0 5px 25px rgba(255, 255, 255, 0.155);
+}
+
+.box:hover {
+    background: rgba(0, 51, 83, 0.375);
+    border-radius: 500px 250px 425px 20px;
+}
+
+.box h2 {
+    color: #fff;
+    padding: 0px;
+    margin: 0 0 30px;
+    text-align: center;
+}
+
+.box .input-box {
+    position: relative;
+    color: rgb(255, 255, 255);
+}
+
+.box .input-box input {
+    width: 78%;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 0px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    background: transparent;
+    font-family: 'Segoe Script', sans-serif;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.box .input-box label {
+    top: 0;
+    left: 0;
+    cursor: text;
+    transition: .5s;
+    font-size: 16px;
+    margin: 0 0 0 44%;
+    padding: 10px 0px;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    letter-spacing: 1px;
+    color: rgb(124, 124, 124);
+}
+
+.box .input-box label:hover {
+    color: rgba(0, 0, 0, 0);
+}
+
+.box .input-box input:focus~label,
+.box .input-box input:valid~label {
+    left: 0px;
+    top: -18px;
+    font-size: 12px;
+    color: #ffd27e;
+}
+
+.box input[type="submit"] {
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    background: transparent;
+    background: #0866e98a;
+    transition: ease-out 0.3s;
+    border-radius: 3px 23px 3px 22px;
+    font-family: 'Segoe Script', sans-serif;
+}
+
+.box input[type="submit"]:hover {
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    background-color: #ffd27e7a;
+    border-radius: 23px 3px 22px 3px;
+}
+
+.box a {
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    text-decoration: none;
+    background: transparent;
+    transition: ease-out 0.3s;
+    border-radius: 3px 23px 3px 23px;
+    background: rgba(255, 255, 255, 0.162);
+}
+
+.box a:hover {
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    border-radius: 23px 23px 23px 23px;
+}
+
+.box button {
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    text-decoration: none;
+    background: transparent;
+    transition: ease-out 0.3s;
+    border-radius: 23px 23px 23px 23px;
+    font-family: 'Segoe Script', sans-serif;
+    background: rgba(255, 255, 255, 0.162);
+}
+
+.box button:hover {
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    border-radius: 23px 3px 23px 3px;
+}
+
+.input-buttons {
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+}
+
+.text-result:hover {
+    color: rgb(255, 170, 248);
+}
+
+br {
+    user-select: none;
+}
+
+
+/* SUBMITTED BY:
+JOHN PAUL S. MIRAFLORES
+RISTY ANN J. BAHIAN */
